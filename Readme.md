@@ -21,6 +21,19 @@ Sublime Text 2 设置(perfernces > Settings - User)：
   "default_encoding": "UTF-8"
 ```
 
+## JavaScript 使用严格模式
+
+```js
+"use strict"
+```
+
+或者
+
+```bash
+node --use_strict
+```
+
+
 ## 4空格缩进
 
 使用4个空格而不是 tab 来进行代码缩进，同时绝对不要混用空格和 tab 。
