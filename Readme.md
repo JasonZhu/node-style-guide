@@ -11,14 +11,24 @@
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
-## 2空格缩进
+## 文件编码
 
-使用2个空格而不是 tab 来进行代码缩进，同时绝对不要混用空格和 tab 。
+文件编码统一采用 `UTF-8`
 
 Sublime Text 2 设置(perfernces > Settings - User)：
 
 ```
-  "tab_size": 2,
+  "default_encoding": "UTF-8"
+```
+
+## 4空格缩进
+
+使用4个空格而不是 tab 来进行代码缩进，同时绝对不要混用空格和 tab 。
+
+Sublime Text 2 设置(perfernces > Settings - User)：
+
+```
+  "tab_size": 4,
   "translate_tabs_to_spaces": true
 ```
 
